@@ -1,0 +1,30 @@
+101 ICON "resources\\keysynth.ico"
+1 24 "resources\\keysynth.manifest"
+
+1 VERSIONINFO
+ FILEVERSION 0,2,0,0
+ PRODUCTVERSION 0,2,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "KeySynth\0"
+      VALUE "FileDescription", "KeySynth keyboard music instrument\0"
+      VALUE "FileVersion", "0.2.0\0"
+      VALUE "InternalName", "KeySynth\0"
+      VALUE "OriginalFilename", "KeySynth.exe\0"
+      VALUE "ProductName", "KeySynth\0"
+      VALUE "ProductVersion", "0.2.0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
